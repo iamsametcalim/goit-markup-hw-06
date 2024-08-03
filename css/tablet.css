@@ -42,7 +42,6 @@
   }
 
   .ourf-list {
-    display: flex;
     width: calc((100% - 24px) / 2);
   }
 
@@ -51,10 +50,7 @@
     width: 100%;
   }
   .ekip-uye {
-    flex-direction: row;
-    flex-wrap: wrap;
     width: calc((100% - 24px) / 2);
-    resize: none;
   }
 
   .modal-pencere {
