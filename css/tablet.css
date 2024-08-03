@@ -1,0 +1,63 @@
+@media (min-width: 768px) and (max-width: 1157px) {
+  .nav-part {
+    width: 100%;
+  }
+  .nav-list {
+    font-weight: 500;
+    margin-left: 251px;
+    margin-right: 256px;
+    gap: 40px;
+  }
+  .header-logo-div {
+    margin-left: 16px;
+  }
+  .contacts-bir {
+    padding: 20px;
+  }
+  .adres-list {
+    margin-right: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  /* section-bir*/
+
+  .hero {
+    width: 100%;
+  }
+
+  .hero-baslik {
+    padding: 116px, 136px, 206px, 136px;
+  }
+  .button-hero {
+    margin-top: 36px;
+  }
+
+  /*section-iki*/
+  .our-features {
+    width: 100%;
+  }
+  .icon-sect-iki {
+    display: none;
+  }
+
+  .ourf-list {
+    display: flex;
+    width: calc((100% - 24px) / 2);
+  }
+
+  /*section-üç*/
+  .team {
+    width: 100%;
+  }
+  .ekip-uye {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: calc((100% - 24px) / 2);
+    resize: none;
+  }
+
+  .modal-pencere {
+    display: none;
+  }
+}
