@@ -42,6 +42,9 @@
   }
 
   .ourf-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     width: calc((100% - 24px) / 2);
   }
 
@@ -50,8 +53,21 @@
     width: 100%;
   }
   .ekip-uye {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     width: calc((100% - 24px) / 2);
   }
+
+  /*section-dort*/
+  .apps-resim-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: calc((100% - 24px) / 2);
+  }
+
+  /*footer*/
 
   .modal-pencere {
     display: none;
