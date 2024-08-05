@@ -21,14 +21,10 @@
     gap: 12px;
   }
   /* section-bir*/
-
-  .hero {
-    width: 100%;
+  .hero-div {
+    align-items: center;
   }
 
-  .hero-baslik {
-    padding: 116px, 136px, 206px, 136px;
-  }
   .button-hero {
     margin-top: 36px;
   }
@@ -70,6 +66,12 @@
   /*footer*/
 
   .modal-pencere {
+    display: none;
+  }
+  .hamburger-menu {
+    display: none;
+  }
+  .menu-icon-button {
     display: none;
   }
 }

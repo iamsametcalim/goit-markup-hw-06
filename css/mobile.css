@@ -1,0 +1,92 @@
+@media (max-width: 767px) {
+  .nav-list {
+    display: none;
+  }
+
+  .hamburger-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    display: none;
+  }
+
+  .hamburger-ul {
+    font-family: "Roboto" sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    width: 151px;
+    padding: 72px 156px 168px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+  }
+
+  .hamburger-ul:hover {
+    color: #404bbf;
+  }
+
+  .hamburger-ul:focus {
+    color: #404bbf;
+  }
+
+  .hamburger-adres-list {
+    font-family: "Roboto" sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #434455;
+    padding: 0px 311px 128px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .hamburger-adres-list:hover {
+    color: #4d5ae5;
+  }
+
+  .hamburger-adres-list:focus {
+    color: #4d5ae5;
+  }
+  .hamburger-list-item {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .hamburger-button {
+    width: 24px;
+    border: 0px;
+    border-radius: 50%;
+    margin: 24px 24px 0px 272px;
+  }
+  .is-open {
+    display: block;
+  }
+  .modal-pencere {
+    display: none;
+  }
+
+  .ourf-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .icon-sect-iki {
+    display: none;
+  }
+
+  .ekip-uye {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-part {
+    display: flex;
+    flex-direction: column;
+  }
+}
