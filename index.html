@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/mobile.css" />
     <link rel="stylesheet" href="./css/tablet.css" />
+    <script src="./index.js" defer></script>
     <title>WEBSTUDIO</title>
   </head>
 
@@ -57,13 +58,21 @@
         </address>
       </div>
       <!--burda kaldın yarın sabah bakarsın-->
-      <button type="button" class="menu-icon-button">
+      <button
+        type="button"
+        class="menu-icon-hamburger-bttn"
+        id="hamburger-menu-open"
+      >
         <svg class="just-menu-icon" width="24px" height="24px">
           <use href="./images/icons.svg#icon-hamburger"></use>
         </svg>
       </button>
-      <div class="hamburger-menu">
-        <button type="button" class="hamburger-button">
+      <div id="hamburger-menu" class="hamburger-menu">
+        <button
+          type="button"
+          class="hamburger-button"
+          id="hamburger-menu-close"
+        >
           <svg class="icon-kapanis" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
@@ -564,12 +573,24 @@
     </footer>
 
     <div class="modal-pencere container">
-      <div class="modal-div">
-        <button class="modal-button" type="button">
+      <div class="modal-div" id="modal-div">
+        <button class="modal-button" type="button" id="modal-window-open">
           <svg class="icon-kapanis" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
+          <!-- 
+      <span
+          id="modal-window-close"
+          style="float: right; cursor: pointer"
+      ></span>
+        
+        burdan eminim değilim (modal pencereyi kapatmak için)-->
         </button>
+
+        <span
+          id="modal-window-close"
+          style="float: right; cursor: pointer"
+        ></span>
 
         <p class="modal-prgrf">Leave your contacts and we will call you back</p>
         <form>

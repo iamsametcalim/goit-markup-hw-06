@@ -1,4 +1,6 @@
 @media (max-width: 767px) {
+  /*header */
+
   .nav-list {
     display: none;
   }
@@ -71,6 +73,17 @@
   .modal-pencere {
     display: none;
   }
+  .menu-icon-hamburger-bttn {
+    display: block;
+    margin: 26px 16px 5px 280px;
+    transform: translateY(-200%);
+  }
+  /*1.kısım */
+  .hero-baslik {
+    text-align: center;
+  }
+
+  /*2.kısım */
 
   .ourf-list {
     display: flex;
@@ -81,10 +94,18 @@
     display: none;
   }
 
+  /*3.kısım*/
+
   .ekip-uye {
     display: flex;
     flex-direction: column;
   }
+  /*4.kısım */
+  .apps-resim-list {
+    flex-direction: column;
+  }
+  /*footer */
+
   .footer-part {
     display: flex;
     flex-direction: column;
