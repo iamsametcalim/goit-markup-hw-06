@@ -77,7 +77,10 @@
     display: block;
     margin: 26px 16px 5px 280px;
     transform: translateY(-200%);
+    background-color: #404bbf;
+    border: 0px;
   }
+
   /*1.kısım */
   .hero-baslik {
     text-align: center;
