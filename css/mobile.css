@@ -1,6 +1,8 @@
 @media (max-width: 767px) {
   /*header */
-
+  .header-part {
+    width: 100%;
+  }
   .nav-list {
     display: none;
   }
@@ -57,9 +59,16 @@
   .hamburger-adres-list:focus {
     color: #4d5ae5;
   }
+  .hamburger-social-div {
+    width: 100%;
+    flex-direction: row;
+  }
+
   .hamburger-list-item {
     display: flex;
     flex-wrap: wrap;
+    gap: 40px;
+    background-color: #404bbf;
   }
   .hamburger-button {
     width: 24px;
@@ -67,12 +76,7 @@
     border-radius: 50%;
     margin: 24px 24px 0px 272px;
   }
-  .is-open {
-    display: block;
-  }
-  .modal-pencere {
-    display: none;
-  }
+
   .menu-icon-hamburger-bttn {
     display: block;
     margin: 26px 16px 5px 280px;
@@ -80,37 +84,84 @@
     background-color: #404bbf;
     border: 0px;
   }
+  .adres {
+    display: none;
+  }
 
   /*1.kısım */
+  .hero-div {
+    width: 100%;
+  }
   .hero-baslik {
     text-align: center;
   }
 
   /*2.kısım */
-
-  .ourf-list {
-    display: flex;
-    flex-direction: column;
+  .ourf-div {
+    width: 100%;
+    margin: 0px 16px;
   }
 
   .icon-sect-iki {
     display: none;
   }
-
+  .ourf-ullist {
+    flex-direction: column;
+    gap: 72px;
+  }
+  .ourf-baslik {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 8px;
+  }
   /*3.kısım*/
-
-  .ekip-uye {
+  .team-div {
+    width: 100%;
+  }
+  .our-team-list {
     display: flex;
     flex-direction: column;
+    gap: 72px;
   }
   /*4.kısım */
+  .ourp-div {
+    width: 100%;
+    justify-content: center;
+    margin: 0px 26px;
+  }
   .apps-resim-list {
     flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   /*footer */
-
-  .footer-part {
+  .footer-div {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 96px 16px;
+    gap: 72px;
+  }
+  .footer-form-div {
     display: flex;
     flex-direction: column;
+  }
+  .form-button {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-item {
+    align-self: center;
+  }
+  .is-open {
+    display: block;
+  }
+  .modal-pencere {
+    display: none;
   }
 }

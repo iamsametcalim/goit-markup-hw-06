@@ -1,6 +1,8 @@
 @media (min-width: 768px) and (max-width: 1157px) {
   .nav-part {
     width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .nav-list {
     font-weight: 500;
@@ -22,6 +24,7 @@
   }
   /* section-bir*/
   .hero-div {
+    width: 100%;
     align-items: center;
   }
 
@@ -30,6 +33,9 @@
   }
 
   /*section-iki*/
+  .ourf-div {
+    width: 100%;
+  }
   .our-features {
     width: 100%;
   }
@@ -38,14 +44,11 @@
   }
 
   .ourf-list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     width: calc((100% - 24px) / 2);
   }
 
   /*section-üç*/
-  .team {
+  .team.div {
     width: 100%;
   }
   .ekip-uye {
@@ -56,6 +59,9 @@
   }
 
   /*section-dort*/
+  .ourp-div {
+    width: 100%;
+  }
   .apps-resim-list {
     display: flex;
     flex-direction: row;
@@ -64,6 +70,9 @@
   }
 
   /*footer*/
+  .footer-div {
+    width: 100%;
+  }
 
   .modal-pencere {
     display: none;
