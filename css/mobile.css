@@ -2,13 +2,14 @@
   /*header */
   .header-part {
     width: 100%;
+    position: relative;
   }
   .nav-list {
     display: none;
   }
 
   .hamburger-menu {
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
@@ -78,9 +79,10 @@
   }
 
   .menu-icon-hamburger-bttn {
-    display: block;
-    margin: 26px 16px 5px 280px;
-    transform: translateY(-200%);
+    display: flex;
+    position: fixed;
+    margin: 30px 16px 5px 300px;
+    transform: translateY(-300%);
     background-color: #404bbf;
     border: 0px;
   }
