@@ -11,13 +11,14 @@
     font-weight: 500;
     margin-left: 120px;
     margin-right: 122px;
+    padding-top: 20px;
     gap: 40px;
   }
   .header-logo-div {
     margin-left: 16px;
   }
   .contacts-bir {
-    padding: 20px;
+    padding: 5px;
     width: 50px;
   }
   .adres-list {
@@ -69,7 +70,7 @@
     justify-content: center;
   }
   .our-team-list {
-    margin: 208px 108px 96px 108px;
+    margin: 40px 108px 96px 108px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -77,6 +78,8 @@
   }
   .third-section-baslik {
     text-align: center;
+    padding-right: 400px;
+    margin-bottom: 72px;
   }
   /*section-dort*/
   .ourp-div {

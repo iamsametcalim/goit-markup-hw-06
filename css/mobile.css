@@ -2,14 +2,13 @@
   /*header */
   .header-part {
     width: 100%;
-    position: relative;
   }
   .nav-list {
     display: none;
   }
 
   .hamburger-menu {
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     bottom: 0;
@@ -65,22 +64,22 @@
     flex-direction: row;
   }
 
-  .hamburger-list-item {
+  .hamburger-social-item {
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
-    background-color: #404bbf;
   }
   .hamburger-button {
+    position: absolute;
     width: 24px;
     border: 0px;
     border-radius: 50%;
-    margin: 24px 24px 0px 272px;
+    margin: 24px 24px 0px 300px;
   }
 
   .menu-icon-hamburger-bttn {
     display: flex;
-    position: fixed;
+    position: absolute;
     margin: 30px 16px 5px 300px;
     transform: translateY(-300%);
     background-color: #404bbf;
@@ -149,14 +148,11 @@
     margin: 96px 16px;
     gap: 72px;
   }
-  .footer-form-div {
+  .footer-form {
     display: flex;
     flex-direction: column;
   }
-  .form-button {
-    display: flex;
-    flex-direction: column;
-  }
+
   .footer-item {
     align-self: center;
   }

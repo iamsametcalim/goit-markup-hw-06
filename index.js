@@ -11,14 +11,15 @@ hamburgerMenuClose.addEventListener("click", function () {
   hamburgerMenu.classList.remove("is-open");
 });
 // bu kısım modal windowu kapatmak için
-const modalWindowOpen = document.getElementById("modal-window-open");
+const orderServiceButton = document.getElementById("order-service-button");
 const modalDiv = document.getElementById("modal-div");
 const modalWindowClose = document.getElementById("modal-window-close");
 
-modalWindowOpen.addEventListener("click", function () {
-  modalDiv.classList.add("is-open");
-});
-
-modalWindowClose.addEventListener("click", function () {
-  modalDiv.classList.remove("is-open");
-});
+function toggle() {
+  var modal = document.getElementById("modal-div");
+  modal.classList.toggle("is-open");
+}
+function toggleMenu() {
+  var menu = document.getElementById("mobile-toggle-menu");
+  menu.classList.toggle("is-open");
+}
