@@ -550,7 +550,8 @@ a {
 }
 
 .modal-div {
-  position: absolute;
+  display: none;
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -730,5 +731,16 @@ a {
   display: none;
 }
 .menu-icon-hamburger-bttn {
+  display: none;
+}
+
+#modal-div {
+  display: none;
+}
+
+#modal-div.is-open {
+  display: block;
+}
+.modal-pencere {
   display: none;
 }

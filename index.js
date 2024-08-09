@@ -1,4 +1,4 @@
-console.log("İYİĞ AKŞAMLAR DELİKANLIĞ!!!!");
+console.log("first-js");
 
 const hamburgerMenuOpen = document.getElementById("hamburger-menu-open");
 const hamburgerMenu = document.getElementById("hamburger-menu");
@@ -15,11 +15,10 @@ const orderServiceButton = document.getElementById("order-service-button");
 const modalDiv = document.getElementById("modal-div");
 const modalWindowClose = document.getElementById("modal-window-close");
 
-function toggle() {
-  var modal = document.getElementById("modal-div");
-  modal.classList.toggle("is-open");
+function openModal() {
+  document.getElementById("modal-div").classList.add("is-open");
 }
-function toggleMenu() {
-  var menu = document.getElementById("mobile-toggle-menu");
-  menu.classList.toggle("is-open");
+
+function closeModal() {
+  document.getElementById("modal-div").classList.remove("is-open");
 }
