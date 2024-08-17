@@ -59,9 +59,7 @@
 
   .ourf-ullist {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: calc((100% - 24px) / 2);
+    gap: 24px;
   }
 
   /*section-üç*/
@@ -98,15 +96,5 @@
     display: flex;
     flex-wrap: wrap;
     gap: 72px;
-  }
-
-  .modal-pencere {
-    display: none;
-  }
-  .hamburger-menu {
-    display: none;
-  }
-  .menu-icon-hamburger-bttn {
-    display: none;
   }
 }

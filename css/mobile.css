@@ -156,10 +156,4 @@
   .footer-item {
     align-self: center;
   }
-  .is-open {
-    display: block;
-  }
-  .modal-pencere {
-    display: none;
-  }
 }

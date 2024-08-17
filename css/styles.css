@@ -229,7 +229,7 @@ a {
   padding: 120px 0;
 }
 
-.ourf-list {
+.ourf-ullist {
   width: calc((100%-72px) / 4);
 }
 
@@ -550,8 +550,7 @@ a {
 }
 
 .modal-div {
-  display: none;
-  position: fixed;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -733,14 +732,9 @@ a {
 .menu-icon-hamburger-bttn {
   display: none;
 }
-
-#modal-div {
-  display: none;
-}
-
-#modal-div.is-open {
-  display: block;
-}
 .modal-pencere {
   display: none;
+}
+.is-open {
+  display: block;
 }

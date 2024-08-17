@@ -12,13 +12,13 @@ hamburgerMenuClose.addEventListener("click", function () {
 });
 // bu kısım modal windowu kapatmak için
 const orderServiceButton = document.getElementById("order-service-button");
-const modalDiv = document.getElementById("modal-div");
 const modalWindowClose = document.getElementById("modal-window-close");
+const modalPencere = document.getElementById("modal-pencere");
 
-function openModal() {
-  document.getElementById("modal-div").classList.add("is-open");
-}
+orderServiceButton.addEventListener("click", function () {
+  modalPencere.style.display = "block";
+});
 
-function closeModal() {
-  document.getElementById("modal-div").classList.remove("is-open");
-}
+modalWindowClose.addEventListener("click", function () {
+  modalPencere.style.display = "none";
+});
